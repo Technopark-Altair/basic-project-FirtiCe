@@ -1,0 +1,15 @@
+.cards_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,  minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.title, .text {
+  color: dodgerblue;
+}
